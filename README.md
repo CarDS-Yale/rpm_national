@@ -1,8 +1,8 @@
 # RPM_National: Evaluating the Availability of Remote Patient Monitoring at U.S. Hospitals
 
-*Aline F. Pedroso PhD, Zhenqiu Lin PhD, Joseph S. Ross MD, MHS Rohan Khera MD, MS>*
+*Aline F. Pedroso PhD, Zhenqiu Lin PhD, Joseph S. Ross MD, MHS Rohan Khera MD, MS*
 
-[[`Manuscript`](#)] [[`CarDS Lab`](https://www.cards-lab.org)]
+[[`Manuscript`](https://www.medrxiv.org/content/10.1101/2024.10.14.24315496v1)] [[`CarDS Lab`](https://www.cards-lab.org)]
 
 -----
 
@@ -123,7 +123,7 @@ If you use or adapt this code, please cite the accompanying manuscript:
 
 MLA:
 ```
-Pedroso, A.F., Lin, Z., Ross, J.S., Khera, R. "National Patterns of Remote Patient Monitoring Service Availability at U.S. Hospitals." Original Research Manuscript. 2025.
+Pedroso, A.F., Lin, Z., Ross, J.S., Khera, R. "National Patterns of Remote Patient Monitoring Service Availability at U.S. Hospitals." Medrxiv. 2025.
 ```
 
 BibTeX:
@@ -131,7 +131,7 @@ BibTeX:
 @article{pedroso2025rpm,
   title={National Patterns of Remote Patient Monitoring Service Availability at US Hospitals},
   author={Pedroso, Aline F. and Lin, Zhenqiu and Ross, Joseph S. and Khera, Rohan},
-  journal={Journal Name},
+  journal={Medrxiv},
   year={2025},
   note={Original Research Manuscript}
 }
@@ -144,11 +144,7 @@ BibTeX:
 For questions about the dataset or analysis, please contact:
 
 **Aline F. Pedroso, PhD**  
-Cardiovascular Data Science (CarDS) Lab  
-Yale School of Medicine  
 📧 aline.pedroso@yale.edu
 
 **Rohan Khera, MD, MS**  
-Cardiovascular Data Science (CarDS) Lab  
-Yale School of Medicine  
 📧 rohan.khera@yale.edu
