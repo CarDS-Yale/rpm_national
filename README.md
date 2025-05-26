@@ -1,6 +1,6 @@
 # RPM_National: Evaluating the Availability of Remote Patient Monitoring at U.S. Hospitals
 
-*Aline F. Pedroso PhD, Zhenqiu Lin PhD, Joseph S. Ross MD, MHS Rohan Khera MD, MS*
+*Aline F. Pedroso, Zhenqiu Lin, Joseph S. Ross, Rohan Khera*
 
 [[`Manuscript`](https://www.medrxiv.org/content/10.1101/2024.10.14.24315496v1)] [[`CarDS Lab`](https://www.cards-lab.org)]
 
