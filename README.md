@@ -6,10 +6,6 @@
 
 -----
 
-<p align="center">
-  <img src="path/to/representative/figure.png" height="400">
-</p>
-
 This repository contains the codebase used in the study titled:
 
 **"National Patterns of Remote Patient Monitoring Service Availability at U.S. Hospitals"**
