@@ -18,9 +18,9 @@ The study evaluates the presence and temporal trends in Remote Patient Monitorin
 
 The repository includes all analytical code to generate:
 
-1. **Cohort Construction**: Defines a national hospital cohort using Medicare claims and facility-level datasets.
-2. **Descriptive Tables**: Summarizes characteristics of hospitals offering RPM.
-3. **Publication Figures**: Visualizes RPM availability and distribution across hospital characteristics and geography.
+1. **Cohort Construction**: Defines a national hospital cohort using the American Hospital Association annual survey data.
+2. **Descriptive Tables**: Summarizes characteristics of hospitals offering RPM and the communities served by these hospitals based on county-level census data.
+3. **Publication Figures**: Visualizes RPM availability and relative increase in availability across hospital/community characteristics and geography.
 
 The repository is intended to promote transparency, reproducibility, and reuse of methodology for hospital-based health services research using administrative data.
 
@@ -32,7 +32,7 @@ The repository is intended to promote transparency, reproducibility, and reuse o
 
 This script assembles a cohort of U.S. hospitals reporting use of RPM services. Key tasks include:
 
-- Identifying hospitals with documented RPM billing codes.
+- Identifying hospitals with documented RPM availability.
 - Merging facility-level characteristics from auxiliary datasets.
 - Creating analytic variables for hospital type, region, ownership, and digital infrastructure.
 - Outputting a structured analytic dataset for further tabulation and plotting.
@@ -43,8 +43,8 @@ This script assembles a cohort of U.S. hospitals reporting use of RPM services. 
 
 Generates descriptive statistics for the manuscript, including:
 
-- **Table 1**: Baseline characteristics of hospitals with and without RPM services.
-- **Table 2**: Stratified analysis of RPM availability by hospital type, ownership, region, and digital maturity.
+- **Table 1**: Characteristics of hospitals with RPM services according to size, region, area of location, teaching status and ownership.
+- **Table 2**: Baseline characteristics of the communities served by these hospitals.
 
 All tables are exported as CSV files, ready for review and integration into the publication.
 
@@ -54,11 +54,12 @@ All tables are exported as CSV files, ready for review and integration into the 
 
 Produces the visualizations in the manuscript, including:
 
-- **Figure 1**: Annual trends in RPM availability.
-- **Figure 2**: Geographic map of RPM availability by state.
-- **Figure 3**: RPM adoption stratified by rurality and hospital ownership.
-- **Figure 4**: Specialty-specific RPM availability across years.
-- **Figure 5**: Distribution of RPM services by teaching status and hospital bed size.
+- **Figure 1**: Relative increase in RPM availability from 2018 to 2022.
+- **Figure 2**: Geographic map of RPM availability by county.
+- **Figure 3**: Community and hospital characteristics associated with the availability of RPM services.
+- **Figure 4**: Trends in the proportion of hospitalizations for HF and AMI at hospitals with and without RPM.
+- **Figure 5**: Trends in RPM service availability by rural-urban commuting area (RUCA) classification.
+.
 
 Figures are generated using `matplotlib`, `seaborn`, and `geopandas`, and saved as high-resolution PNGs.
 
